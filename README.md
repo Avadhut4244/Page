@@ -11,7 +11,7 @@ This project shows how **AI + design tools** can speed up front-end development 
 ---
 
 ## 🌍 Demo
-🚀 **Live Preview:** [Landing Page on Netlify](https://your-netlify-site.netlify.app)  
+🚀 **Live Preview:** [Landing Page on Netlify](https://aquamarine-sunburst-436f27.netlify.app/)  
 
 ---
 
@@ -68,4 +68,5 @@ git clone https://github.com/Avadhut4244/Page.git
 cd Page
 
 # Open index.html in your browser
+
 
