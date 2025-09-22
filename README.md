@@ -1,21 +1,43 @@
-﻿Page
-===
+## 📖 Overview
+The **Landing Page** is a responsive single-page website created as part of a design-to-code workflow.  
 
-A simple, responsive landing page built with semantic HTML, modern CSS, and a small amount of vanilla JavaScript.
+Instead of manually coding from scratch, the project was built by:  
+- Designing in **Figma**  
+- Converting design → code using **Cursor AI (with Figma MCP integration)**  
+- Hosting on **GitHub** and deploying via **Netlify**  
 
-### Features
-- Clean, minimal layout with responsive styles
-- Reusable SVG assets for logos, icons, and illustrations
-- Lightweight, framework-free setup
-- Ready to deploy to any static hosting provider (GitHub Pages, Netlify, Vercel)
+This project shows how **AI + design tools** can speed up front-end development while maintaining clean, responsive layouts.
 
-### Tech Stack
-- **HTML5** for structure
-- **CSS3** for styling (`styles/main.css`)
-- **JavaScript (ES6+)** for interactivity (`scripts/main.js`)
-- **SVG** assets for crisp visuals
+---
 
-### Project Structure
+## 🌍 Demo
+🚀 **Live Preview:** [Landing Page on Netlify](https://your-netlify-site.netlify.app)  
+
+---
+
+## ✨ Features
+- 📱 **Responsive design** (mobile-friendly)  
+- 🎨 **Clean UI** based on Figma design  
+- ⚡ **Lightweight** (HTML, CSS, JS only, no frameworks)  
+- 🚀 **Deployed on Netlify** with continuous deployment  
+- 🔧 **Easy to customize** (just edit `index.html`, `styles`, or `scripts`)  
+
+---
+
+## 🛠 Tech Stack
+
+| Category        | Tools / Tech |
+|-----------------|--------------|
+| **Design**      | Figma (Dev Mode MCP server) |
+| **Code Gen**    | Cursor (MCP client) |
+| **Frontend**    | HTML5, CSS3, JavaScript |
+| **Versioning**  | Git & GitHub |
+| **Deployment**  | Netlify |
+
+---
+
+## 📂 Folder Structure
+
 ```
 Page/
 ├─ assets/            # SVG images and icons
@@ -27,32 +49,23 @@ Page/
 └─ README.md          # This file
 ```
 
-### Getting Started
-- Open `index.html` directly in your browser, or
-- Serve locally for a better dev experience:
 
+---
+
+## 🚀 Getting Started
+
+### 🔹 Prerequisites
+- A modern web browser (Chrome, Firefox, Edge, Safari)  
+- Git installed on your machine  
+- (Optional) Netlify/Vercel account for deployment  
+
+### 🔹 Run Locally
 ```bash
-# Using PowerShell (Windows) with Python installed
-python -m http.server 5500
-# Then open http://localhost:5500
-```
+# Clone repository
+git clone https://github.com/Avadhut4244/Page.git
 
-Alternatively, use VS Code Live Server or any static server.
+# Navigate to project folder
+cd Page
 
-### Development
-- Edit styles in `styles/main.css`
-- Update markup in `index.html`
-- Add small interactions in `scripts/main.js`
-- Place new images/icons in `assets/`
-
-### Deployment
-Any static host works. For GitHub Pages:
-1. Push the repository to GitHub
-2. In the repo settings, enable GitHub Pages for the `main` branch (root)
-3. Your site will be available at the Pages URL shown in settings
-
-### License
-MIT License. See `LICENSE` if added.
-
-# Page
+# Open index.html in your browser
 
