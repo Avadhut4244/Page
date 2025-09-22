@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page</title>
+    <meta name="description" content="Landing page matching Figma design." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#" aria-label="Home">
+          <img src="assets/logo.svg" alt="Brand logo" class="brand-logo" />
+          <span class="brand-name">Brand</span>
+        </a>
+
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="sr-only">Toggle menu</span>
+          </button>
+          <ul id="nav-menu" class="nav-menu">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-cta">
+          <a class="btn btn-ghost" href="#" id="login-link">Log in</a>
+          <a class="btn btn-primary" href="#cta">Get Started</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1 class="hero-title">Train Smarter. Achieve More.</h1>
+            <p class="hero-subtitle">Personalized coaching programs, progress tracking, and community support — all in one place.</p>
+            <div class="hero-ctas">
+              <a class="btn btn-primary btn-lg" href="#pricing">Start Free Trial</a>
+              <a class="btn btn-secondary btn-lg" href="#features">See How It Works</a>
+            </div>
+            <ul class="hero-bullets">
+              <li>No credit card required</li>
+              <li>Cancel anytime</li>
+              <li>Trusted by athletes worldwide</li>
+            </ul>
+          </div>
+          <div class="hero-media">
+            <img src="assets/hero-image.svg" alt="App preview" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <section class="logos" aria-label="Trusted by">
+        <div class="container logos-inner">
+          <img src="assets/logo-1.svg" alt="Partner 1" />
+          <img src="assets/logo-2.svg" alt="Partner 2" />
+          <img src="assets/logo-3.svg" alt="Partner 3" />
+          <img src="assets/logo-4.svg" alt="Partner 4" />
+          <img src="assets/logo-5.svg" alt="Partner 5" />
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="container">
+          <header class="section-header">
+            <h2>Everything you need to hit your goals</h2>
+            <p>From smart planning to real-time analytics, our tools keep you accountable.</p>
+          </header>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <img src="assets/feature-1.svg" alt="Planner" />
+              <h3>Smart Planner</h3>
+              <p>Weekly plans tailored to your fitness level and availability.</p>
+            </article>
+            <article class="feature-card">
+              <img src="assets/feature-2.svg" alt="Analytics" />
+              <h3>Progress Analytics</h3>
+              <p>See trends, PRs, and readiness scores at a glance.</p>
+            </article>
+            <article class="feature-card">
+              <img src="assets/feature-3.svg" alt="Community" />
+              <h3>Coach & Community</h3>
+              <p>Feedback from certified coaches and peers to keep you motivated.</p>
+            </article>
+            <article class="feature-card">
+              <img src="assets/feature-4.svg" alt="Integrations" />
+              <h3>Device Integrations</h3>
+              <p>Sync with wearables and favorite training apps seamlessly.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <header class="section-header">
+            <h2>Athletes love the results</h2>
+            <p>Real stories from people who transformed their training.</p>
+          </header>
+          <div class="testimonial-grid">
+            <figure class="testimonial-card">
+              <blockquote>“The accountability and insights helped me shave 12 minutes off my half marathon.”</blockquote>
+              <figcaption>
+                <img src="assets/avatar-1.svg" alt="Alex Johnson" />
+                <div>
+                  <strong>Alex Johnson</strong>
+                  <span>Endurance Athlete</span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <blockquote>“I finally built a sustainable routine. The weekly planner is a game changer.”</blockquote>
+              <figcaption>
+                <img src="assets/avatar-2.svg" alt="Priya Desai" />
+                <div>
+                  <strong>Priya Desai</strong>
+                  <span>Gym Enthusiast</span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <blockquote>“My coach’s feedback keeps me consistent. Best decision for my health.”</blockquote>
+              <figcaption>
+                <img src="assets/avatar-3.svg" alt="Marco Liu" />
+                <div>
+                  <strong>Marco Liu</strong>
+                  <span>Recreational Runner</span>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing" id="pricing">
+        <div class="container">
+          <header class="section-header">
+            <h2>Simple pricing</h2>
+            <p>Start free. Upgrade when you’re ready.</p>
+          </header>
+          <div class="pricing-grid">
+            <article class="price-card">
+              <h3>Free</h3>
+              <p class="price"><span>$0</span>/mo</p>
+              <ul class="price-features">
+                <li>Smart Planner (basic)</li>
+                <li>Community access</li>
+                <li>Device integrations</li>
+              </ul>
+              <a class="btn btn-secondary" href="#">Get Started</a>
+            </article>
+            <article class="price-card price-featured" aria-label="Recommended plan">
+              <div class="badge">Most Popular</div>
+              <h3>Pro</h3>
+              <p class="price"><span>$19</span>/mo</p>
+              <ul class="price-features">
+                <li>Advanced analytics</li>
+                <li>Coach feedback</li>
+                <li>Unlimited plans</li>
+              </ul>
+              <a class="btn btn-primary" href="#">Start Free Trial</a>
+            </article>
+            <article class="price-card">
+              <h3>Teams</h3>
+              <p class="price"><span>$49</span>/mo</p>
+              <ul class="price-features">
+                <li>Team management</li>
+                <li>Shared analytics</li>
+                <li>Priority support</li>
+              </ul>
+              <a class="btn btn-secondary" href="#">Contact Sales</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="container">
+          <header class="section-header">
+            <h2>Frequently asked questions</h2>
+            <p>If you can’t find what you’re looking for, we’re here to help.</p>
+          </header>
+          <div class="faq-list">
+            <details>
+              <summary>Is there a free trial?</summary>
+              <p>Yes, try Pro free for 14 days. No credit card required.</p>
+            </details>
+            <details>
+              <summary>Can I cancel anytime?</summary>
+              <p>Absolutely. Your plan will remain active until the end of the period.</p>
+            </details>
+            <details>
+              <summary>Do you offer student discounts?</summary>
+              <p>Yes, contact support with proof of enrollment for a discount.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="cta">
+        <div class="container cta-inner">
+          <h2>Ready to elevate your training?</h2>
+          <p>Join thousands of athletes achieving more with personalized coaching.</p>
+          <div class="cta-actions">
+            <a class="btn btn-primary btn-lg" href="#pricing">Start Free</a>
+            <a class="btn btn-ghost btn-lg" href="#features">Explore Features</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo-mark.svg" alt="Brand" />
+          <span>© <span id="year"></span> Brand, Inc.</span>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="social-links">
+          <li><a href="#" aria-label="Twitter"><img src="assets/x.svg" alt="" /></a></li>
+          <li><a href="#" aria-label="Instagram"><img src="assets/instagram.svg" alt="" /></a></li>
+          <li><a href="#" aria-label="YouTube"><img src="assets/youtube.svg" alt="" /></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+  </html>
+
